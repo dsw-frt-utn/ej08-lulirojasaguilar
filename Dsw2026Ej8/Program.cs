@@ -40,6 +40,34 @@
             Console.WriteLine(promedio);
 
 
+            //Ejercicio 5
+
+            Problema5 problema5 = new Problema5();
+
+            // Venta min
+            RetailSale retail = new RetailSale();
+
+            retail.Amount = 10000;
+
+            decimal totalRetail =
+                problema5.ObtenerImporteFinal(retail);
+
+            Console.WriteLine(totalRetail);
+
+            // Venta may
+            WholesaleSale wholesale = new WholesaleSale();
+
+            wholesale.Amount = 10000;
+
+            decimal totalWholesale =
+                problema5.ObtenerImporteFinal(wholesale);
+
+            Console.WriteLine(totalWholesale);
+
+
+
+
+
 
         }
     }
