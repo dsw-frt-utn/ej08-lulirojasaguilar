@@ -16,6 +16,19 @@
 
             Console.WriteLine(etiqueta);
 
+           // Ejercicio 2
+
+            Problema2 venta = new Problema2();
+
+            string resultadoVenta = venta.CrearResumenVenta(
+                2001,
+                "Auriculares",
+                3,
+                5000
+            );
+
+            Console.WriteLine(resultadoVenta);
+
         }
     }
 }
