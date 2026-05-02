@@ -32,6 +32,13 @@
 
             Console.WriteLine(resultadoProblema3);
 
+            //Ejercicio 4
+            Problema4 problema4 = new Problema4();
+
+            double promedio = problema4.CalcularPromedio(8, null, 10);
+
+            Console.WriteLine(promedio);
+
 
 
         }
